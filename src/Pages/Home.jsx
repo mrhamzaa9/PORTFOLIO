@@ -5,6 +5,7 @@ import Contact from "../Pages/Contact";
 import Project from "../Pages/Project";
 import avatar from "../assets/avatar.png";
 
+
 function Home() {
   return (
     <>
