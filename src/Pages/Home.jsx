@@ -72,9 +72,34 @@ function Home() {
       </section>
 
       {/* Animated Sections */}
-      <About />
-      <Project />
-      <Contact />
+    <motion.section
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.6 }}
+  className="min-h-screen"
+>
+  <About />
+</motion.section>
+<motion.section
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.6 }}
+  className="min-h-screen"
+>
+  <Project />
+</motion.section>
+<motion.section
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.6 }}
+  className="min-h-screen"
+>
+  <Contact />
+</motion.section>
+    
     </>
   );
 }
