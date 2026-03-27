@@ -9,6 +9,7 @@ const Projectcard = ({ video, title, description, features, tech }) => {
           className="rounded-xl w-full h-48 object-fill"
           src={video}
           autoPlay
+          muted
           loop
           playsInline
         />
