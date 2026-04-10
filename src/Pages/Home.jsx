@@ -59,7 +59,7 @@ function Home() {
 
           {/* Resume Button */}
           <motion.a
-            href="https://drive.google.com/file/d/1EWa32-ksLW7tHIMn-i4BLzZGOSxlh99q/view"
+            href="https://drive.google.com/file/d/1-kWe3c64Rsxg5ZewFVydXt_aFwDB9V-M/view"
             download
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
